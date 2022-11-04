@@ -23,12 +23,11 @@
 .opcaoNavegacao
 {
     vertical-align: middle;
-    line-height: normal;
     margin-left: 2vw;
 }
 .conteudo
 {
-    background-color: chartreuse;
+    background-color: rgb(241, 243, 238);
     height: 86vh;
     text-align: center;
 }
@@ -40,4 +39,23 @@
     background-color: white;
     display: inline-block;
     border-radius: 1vw;
+}
+.oferta, .primeiraOferta
+{
+    height: 15vh;
+    width: 20vw;
+    float: left;
+    text-align: left;
+}
+.primeiraOferta
+{
+    border-right: solid rgb(146, 144, 144) 0.3vh;
+}
+.ofertaTitulo
+{
+    margin-top: 3.5vh;
+}
+.ofertaTitulo, .legenda
+{
+    margin-left: 1vw;
 }
